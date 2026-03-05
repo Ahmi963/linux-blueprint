@@ -2,6 +2,7 @@
 autoinstall:
   version: 1
   user-data:
+    users: [""]1
     disable_root: false
     preserve_hostname: true
   ssh:
