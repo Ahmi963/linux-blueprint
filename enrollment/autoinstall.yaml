@@ -10,7 +10,6 @@ autoinstall:
   storage:
     layout:
       name: lvm
-      password: ubuntu # Change this to your desired password
   keyboard:
     layout: de
   locale: en_US
