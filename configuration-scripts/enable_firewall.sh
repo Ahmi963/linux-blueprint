@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script checks whether the firewall is enabled and, if not,
+# configures secure default UFW rules and enables the firewall.
+
 # Get the device's current firewall status
 CURRENT_FIREWALL_STATUS=$(ufw status | head -n 1)
 

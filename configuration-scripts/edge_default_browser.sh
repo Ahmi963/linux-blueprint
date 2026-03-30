@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This script checks the current default web browser and changes it to
+# Microsoft Edge if Edge is installed and not already set as the default.
+# It also updates the system’s default handlers for web links and HTML files.
+
 # Get the device's current default web browser
 CURRENT_BROWSER=$(xdg-settings get default-web-browser)
 

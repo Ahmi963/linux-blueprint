@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This script updates the system package lists, installs available upgrades
+# for APT and Snap packages, removes no-longer-needed packages,
+# and confirms that the update process has completed.
+
 # Update the package list from Ubuntu and configured third-party repositories
 apt-get update
 

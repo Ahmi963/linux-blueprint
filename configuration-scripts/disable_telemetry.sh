@@ -1,5 +1,10 @@
 #!/bin/bash
 
+# This script disables Ubuntu telemetry and crash reporting.
+# It opts out of ubuntu-report, updates the Whoopsie configuration
+# to disable crash and metrics reporting, stops and disables the
+# whoopsie service if it exists, and then prints a confirmation message.
+
 # Define the new privacy setting
 NEW_PRIVACY_SETTING="Disabled"
 

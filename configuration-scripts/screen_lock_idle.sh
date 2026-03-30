@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# This script configures and enforces GNOME screen lock settings by setting
+# the idle timeout to 5 minutes, locking the values so users cannot change them,
+# and updating the dconf database to apply the policy.
+
 # Get the device's current idle delay setting if it exists
 CURRENT_IDLE_DELAY=$(grep '^idle-delay=' /etc/dconf/db/local.d/00-screensaver 2>/dev/null | awk '{print $3}')
 

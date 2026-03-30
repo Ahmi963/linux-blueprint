@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# this configures a managed favorites list with predefined websites in Microsoft Edge.
+
 # Define the Edge policy directory
 EDGE_POLICY_DIR="/etc/opt/edge/policies/managed"
 

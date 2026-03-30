@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# This script retrieves the device serial number, uses it to create a new hostname,
+# and updates the system hostname configuration files to apply the new device name.
+
 # Get the device's serial number
 SERIAL_NUMBER=$(sudo dmidecode -s system-serial-number)
 
